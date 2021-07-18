@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup for Facebook</title>
+    <link href="fb.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+        <div class="Header">
+            <div class="logo">
+                <a class="logo-text" href="Index.html">facebook</a>
+            </div>
+            <div class="login">
+                <form action="">
+                <table class="login-controls">
+                    <tr>
+                        <td class="l11">Email or phone</td>
+                        <td class="l12">Password</td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" class="l1"></td>
+                        <td><input type="text" class="l2"></td>
+                        <td><input type="Submit" class="login-2" value="Log in"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a href="Forgot.html" class="login-3">Forgotten Account?</a></td>
+                    </tr>
+                </table>
+                </form>
+                </div>
+            </div>
+            <div class="main-body">
+                <form class="signup-form" action="hello2.html" id="signup-form">
+                <table class="body-control">
+                    <tr>
+                        <td class="mainhead">Create a new account</td>
+                    </tr>
+                    <tr>
+                        <td class="subhead">It's quick and easy.</td>
+                    </tr>
+                    <tr class="names">
+                        <td><input name="firstname" type="text" placeholder="First name" id="fname"></td>
+                        <td><input name="surname" type="text" placeholder="Surname" id="sname"></td>
+                    </tr>
+                    <tr>
+                        <td><input name="emailadd" type="Email" placeholder="Mobile number or email address" id="ename"></td>
+                    </tr>
+                    <tr>
+                        <td><input name="pass" type="Password" placeholder="New password" id="pname" ></td>
+                    </tr>
+                    <tr>
+                        <td class="dob">Date of birth</td>
+                    </tr>
+                    <tr>
+                        <td><select id="dob1" name="day">
+                            <option value="">Day</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option value="">4</option>
+                            <option value="">5</option>
+                            <option value="">6</option>
+                            <option value="">7</option>
+                            <option value="">8</option>
+                            <option value="">9</option>
+                            <option value="">10</option>
+                            </select>
+                        </td>
+                        <td><select id="dob2" name="month">
+                            <option value="">Month</option>
+                            <option value="">January</option>
+                            <option value="">February</option>
+                            <option value="">March</option>
+                            <option value="">April</option>
+                            <option value="">May</option>
+                            <option value="">June</option>
+                            <option value="">July</option>
+                            <option value="">August</option>
+                            <option value="">September</option>
+                            <option value="">October</option>
+                            <option value="">November</option>
+                            <option value="">December</option>
+                        </select>
+                        </td>
+                        <td><select id="dob3" name="year">
+                            <option value="">Year</option>
+                            <option value="">1999</option>
+                            <option value="">2000</option>
+                            <option value="">2001</option>
+                            <option value="">2001</option>
+                            </select>   
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="gen">Gender</td>
+                    </tr>
+                    <tr class="gen1">
+                        <td>
+                            <input type="radio" name="feature">
+                            <label>Female</label>
+                            <input type="radio" name="feature">
+                            <label>Male</label>
+                            <input type="radio" name="feature">
+                            <label>Custom</label>
+                        </td> 
+                    </tr>
+                    <tr>
+                        <td class="policy">By clicking Sign Up, you agree to our Terms, Data Policy and 
+                            <br> Policy. You may receive SMS notifications from us and
+                            <br> can opt out at any time.</td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="Sign Up" id="submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>                      "></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
